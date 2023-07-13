@@ -19,7 +19,7 @@
     "test": "npm start",
     "dev": "ts-node-dev --respawn --transpile-only ./src/Index.ts",
     "build": "tsc",
-    "start":"node ./dist/index.js"
+    "start":"node ./dist/Index.js"
   },
   "keywords": [
     "server",
