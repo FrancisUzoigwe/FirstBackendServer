@@ -8,7 +8,7 @@ const mongoose_1 = __importDefault(require("mongoose"));
 const MongoString = process.env.APPLICATION_STRING;
 const Mongo = () => {
     mongoose_1.default.connect(MongoString).then(() => {
-        console.log("Database connsection established successfully");
+        console.log("Database connection established successfully");
     });
 };
 exports.Mongo = Mongo;
